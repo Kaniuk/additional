@@ -22,10 +22,12 @@
 .header a {
     text-decoration: none;
 }
+
 .header {
     align-items: center;
     justify-content: space-between;
 }
+
 .header-nav {
     grid-column-gap: 46px;
     padding: 34px 0 60px 0;
@@ -52,6 +54,12 @@ button {
     color: #FFFFFF;
 }
 
+button:hover {
+    color: #676767;
+    text-decoration: none;
+    transition: .3s;
+}
+
 .header-buttons {
     grid-column-gap: 25px;
 }
@@ -72,4 +80,107 @@ button {
     box-sizing: border-box;
     border-radius: 5px;
 
+}
+
+.first-screen {
+    background-image: url("icons/first bg.png");
+
+}
+
+.first-screen a {
+    font-size: 16px;
+    line-height: 19px;
+    align-items: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.header a:hover,
+.first-screen a:hover {
+    color: #676767;
+    text-decoration: none;
+    transition: .3s;
+}
+
+.first-screen h1 {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35px;
+    align-items: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding-top: 10px;
+}
+
+.first-screen_cards {
+    grid-column-gap: 18px;
+    padding-top: 30px;
+    padding-bottom: 70px;
+}
+
+.off {
+    background-image: url("icons/card-off.png");
+}
+
+.first-screen_cards .off h3 {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #CB3B48;
+    text-shadow: 0 0 36px rgba(203, 59, 72, 0.5);
+
+}
+
+.first-screen_cards .off h2 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 50px;
+    text-transform: uppercase;
+    color: #CB3B48;
+    text-shadow: 0 0 36px rgba(203, 59, 72, 0.5);
+
+}
+
+.first-screen_cards .off p,
+.first-screen_cards .present p {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.card-adv img {
+    border-radius: 30px;
+}
+
+.small-card {
+    flex-direction: column;
+    background-color: #1c1817;
+    width: 225px;
+    height: 280px;
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.present {
+    background-image: url("icons/1+1.png");
+}
+
+.first-screen_cards .present h2 {
+    font-weight: bold;
+    font-size: 68px;
+    line-height: 79px;
+    align-items: center;
+    color: #C7434F;
+}
+
+.first-screen_cards .present h3 {
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }
