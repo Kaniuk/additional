@@ -2,15 +2,74 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Suisse Intl;
 }
 
 .wrap-body {
     width: 1600px;
     margin: auto;
     background: #222220;
-
 }
 
 .main-container {
     padding: 0 208px;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.header a {
+    text-decoration: none;
+}
+.header {
+    align-items: center;
+    justify-content: space-between;
+}
+.header-nav {
+    grid-column-gap: 46px;
+    padding: 34px 0 60px 0;
+}
+
+.header-nav_items {
+    grid-column-gap: 25px;
+    align-items: center;
+}
+
+.header-nav_item {
+    font-size: 18px;
+    line-height: 21px;
+
+}
+
+.header-nav_item a {
+    color: #FFFFFF;
+}
+
+button {
+    border: none;
+    background: #CB3B48;
+    color: #FFFFFF;
+}
+
+.header-buttons {
+    grid-column-gap: 25px;
+}
+
+.header-buttons .account,
+.header-buttons .call {
+    height: 50px;
+    width: 50px;
+    border-radius: 8px;
+}
+
+.header-buttons .reserve {
+    font-size: 16px;
+    line-height: 19px;
+    padding: 15px 18px;
+    text-align: center;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    border-radius: 5px;
+
 }
