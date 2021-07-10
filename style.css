@@ -278,7 +278,11 @@ button.filter-button img {
 button.filter-button:after {
     content: "";
 }
+.third-screen {
+    justify-content: space-between;
+    margin-top: 50px;
 
+}
 
 .second-part__grid {
     background-color: rgb(0, 0, 0, .5);
@@ -288,7 +292,7 @@ button.filter-button:after {
 .second-part {
     border-bottom-left-radius: 25px;
     border-bottom-right-radius: 25px;
-    height: 180px;
+    height: 178px;
     width: 380px;
     background-image: url("icons/bg.jpg");
     overflow: hidden;
@@ -297,15 +301,18 @@ button.filter-button:after {
 .middle-card {
     align-items: center;
 }
+.second-part__grid_h2 {
+    align-items: center;
+    height: 50px;
+}
 
-.second-part__grid > h2 {
+.second-part__grid_h2  > h2 {
     font-weight: bold;
     font-size: 22px;
     line-height: 25px;
     text-transform: uppercase;
     color: #FFFFFF;
     padding-left: 33px;
-    padding-top: 33px;
 }
 
 .content {
@@ -321,6 +328,7 @@ button.filter-button:after {
     margin-left: 33px;
     margin-right: 15px;
     justify-content: space-between;
+    padding: 15px 0 25px 0;
 }
 
 
@@ -340,6 +348,7 @@ button.filter-button:after {
 
 .bottom-content .cart {
     padding: 7px 8px;
+    margin-left: 5px;
 }
 
 .bottom-content .detail {
@@ -356,9 +365,10 @@ button.filter-button:after {
 .c-fff {
     color: #ffffff;
 }
+
 .middle-cart_last_part img {
-    display: block;
     margin-left: auto;
     margin-right: auto;
+
 
 }
