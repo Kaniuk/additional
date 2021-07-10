@@ -7,8 +7,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<!--    <link href="//db.onlinewebfonts.com/c/501e03d4c0303f394033bcaf435f4b3e?family=Suisse+Int'l+Medium" rel="stylesheet" type="text/css"/>-->
-    <link href="//db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=Suisse+Intl" rel="stylesheet" type="text/css"/>
+    <!--    <link href="//db.onlinewebfonts.com/c/501e03d4c0303f394033bcaf435f4b3e?family=Suisse+Int'l+Medium" rel="stylesheet" type="text/css"/>-->
+    <link href="//db.onlinewebfonts.com/c/88f10bf18a36407ef36bf30bc25a3618?family=Suisse+Intl" rel="stylesheet"
+          type="text/css"/>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -18,22 +19,23 @@
             <img src="icons/logo.svg" alt="">
         </div>
 
-            <div class="header-nav d-flex">
-                <div class="header-nav_items d-flex">
-                    <div class="header-nav_item c-fff"><a href="#">Главная</a></div>
-                    <div class="header-nav_item c-fff"><a href="#">Меню</a></div>
-                    <div class="header-nav_item c-fff"><a href="#">Еще...</a></div>
-                </div>
-
-                <div class="header-buttons d-flex">
-                    <button class="call"><img src="icons/phone.svg" alt="phone"></button>
-                    <button class="account"><a href="#"></a><span></span></button>
-                    <button class="reserve">Забронировать</button>
-                </div>
+        <div class="header-nav d-flex">
+            <div class="header-nav_items d-flex">
+                <div class="header-nav_item"><a href="#">Главная</a></div>
+                <div class="header-nav_item"><a href="#">Меню</a></div>
+                <div class="header-nav_item"><a href="#">Еще...</a></div>
             </div>
+            <div class="header-buttons d-flex">
+                <button class="call b-radius"><img src="icons/phone.svg" alt="phone"></button>
+                <a href="#">
+                    <button class="account b-radius"><span></span></button>
+                </a>
+                <button class="reserve b-radius">Забронировать</button>
+            </div>
+        </div>
     </header>
 
-    <secton>
+    <section>
         <div class="first-screen">
             <div class="first-screen_container main-container">
                 <div class="links d-flex">
@@ -43,7 +45,7 @@
                 <h1>Новости и акции</h1>
             </div>
             <div class="first-screen_cards main-container d-flex">
-                <div class="off small-card d-flex">
+                <div class="first-card small-card d-flex">
                     <h3>Скидка</h3>
                     <h2>10%</h2>
                     <p>всем студентам</p>
@@ -51,18 +53,18 @@
                 <div class="card-adv">
                     <img src="icons/card-adv.png" alt="adv">
                 </div>
-                <div class="present small-card d-flex">
+                <div class="third-card small-card d-flex">
                     <h2>1+1</h2>
                     <h2>= 3</h2>
                     <p>Третий коктейль</p>
-                       <h3>в подарок</h3>
+                    <h3>в подарок</h3>
                 </div>
 
                 <div class="card-adv">
                     <img src="icons/card-adv.png" alt="adv">
                 </div>
 
-                <div class="off small-card d-flex">
+                <div class="first-card small-card d-flex">
                     <h3>Скидка</h3>
                     <h2>10%</h2>
                     <p>всем студентам</p>
@@ -70,7 +72,73 @@
 
             </div>
         </div>
-    </secton>
+    </section>
+
+    <section>
+        <div class="second-screen main-container">
+            <div class="main-menu d-flex">
+                <a href="#">Основное Меню</a>
+                <a href="#">Барная карта</a>
+            </div>
+            <div class="d-flex">
+                <div class="detail-menu d-flex">
+                    <a href="#">Холодные закуски</a>
+                    <a href="#">Салаты</a>
+                    <a href="#">Горячие закуски</a>
+                    <a href="#">Супы</a>
+                    <a href="#">Паста</a>
+                    <a href="#">Основные блюда</a>
+                    <a href="#">Пицца</a>
+                    <a href="#">Блюда на гриле</a>
+                    <a href="#">Морепродукты</a>
+                    <a href="#">Гарниры</a>
+                    <a href="#">Соусы</a>
+                    <a href="#">Десерты</a>
+                </div>
+                <div class="search-box d-flex">
+                    <input type="text" placeholder="Search.."/>
+                    <button><img src="icons/search.svg" alt="phone"></button>
+                </div>
+            </div>
+        </div>
+        <div class="press-buttons main-container">
+            <div class="press-button d-flex">
+                <button class="filter-button"><img src="icons/filters.png" alt="filters">Фильтры</button>
+                <button>Вегетерианские блюда</button>
+                <button>Блюда до 400₽</button>
+                <button>Выбор шефа</button>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="third-screen main-container">
+            <div class="middle-card">
+                <img src="icons/mc-1.png" alt="1">
+                <div class="second-part">
+                    <div class="second-part__grid">
+                        <h2>Салат пармиджано</h2>
+                        <div class="content d-flex">
+                            <p>Ккал: 245</p>
+                            <p>БЖУ: 19,8/12,5/0</p>
+                        </div>
+                        <div class="bottom-content d-flex c-fff">
+                            <div class="d-flex">
+                                <h2>359₽</h2>
+                                <div>/100г.</div>
+                            </div>
+                            <div class="d-flex">
+                                <button class="detail b-radius">подробнее</button>
+                                <button class="cart b-radius"><img src="icons/cart.png" alt="cart"></button>
+                            </div>
+                        </div>
+                        <div class="middle-cart_last_part"><img src="icons/middle-cart_last_part.svg" alt="">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
 </div>
 
 </body>
