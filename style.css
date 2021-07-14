@@ -207,6 +207,61 @@ button:hover {
     padding-bottom: 35px;
 }
 
+.media-detail-menu {
+    display: none;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.media-search-box {
+    display: none;
+
+
+}
+
+.media-search-box img {
+    width: 20px;
+    margin-right: 5px;
+}
+
+.media-search-box input {
+    height: 30px;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.media-search-box button {
+    width: 30px;
+    height: 30px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.media-filter_button button {
+    font-size: 10px;
+    line-height: 12px;
+    width: 85px;
+    margin-left: 30px;
+    align-self: center;
+}
+
+.media-detail-menu button {
+    font-size: 11px;
+    line-height: 14px;
+    align-items: center;
+    color: #FFFFFF;
+    padding: 8px 10px;
+    background: #1c1817;
+    border-radius: 100px;
+    cursor: pointer;
+
+}
+.media-detail-menu button:hover {
+    background: #CB3B48;
+    font-weight: bold;
+}
+
+
 .search-box {
     height: auto;
     margin-left: 33px;
